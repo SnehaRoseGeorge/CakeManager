@@ -1,0 +1,14 @@
+Below are the changes I made as part of this CakeManager application;
+
+1. Converted CakeManager application as a spring Boot application
+2. Created APIs for Getting the all cakes, getting cake by cake id, Adding Cake deatils, Updating Cake deeatils and Deleting Cake
+3. Separated controller, service and DAO layer
+4. Implemented REST API end points for all CRUD operations of cake entity via any client like POSTMAN by using below url
+    'http://localhost:8088/cakeEntities'
+5. Used in-memory DB using H2 database and added all insert queries in data.sql file
+6. Implemented Spring security which will give login screen and during login it will verify username and  encrypted password in
+   'CAKEUSER' table.
+7. Use the following credentials for login.
+user name: User
+passwrod:12345
+ 
